@@ -1,0 +1,9 @@
+{
+  "provider" : "cloudinary",
+  "providerOptions" : {
+    "cloud_name" : "deozbtbis",
+    "api_key" : "588561856663656",
+    "api_secret" : "T4r4cj5fIEwSCdSaz9xEuD0Y7YQ"
+  }
+
+}
