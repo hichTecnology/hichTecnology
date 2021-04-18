@@ -32,6 +32,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "categories": {
+      "collection": "category",
+      "via": "works",
+      "dominant": true
     }
   }
 }

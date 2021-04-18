@@ -23,6 +23,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "works": {
+      "via": "categories",
+      "collection": "work"
     }
   }
 }
