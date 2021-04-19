@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "name": "Customer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "farstName": {
+      "type": "string",
+      "default": "farstName",
+      "required": true,
+      "maxLength": 10,
+      "minLength": 2
+    },
+    "email": {
+      "type": "string",
+      "default": "Email",
+      "required": true
+    },
+    "categories": {
+      "collection": "category",
+      "via": "customers",
+      "dominant": true
+    },
+    "budgetProject": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "myStory": {
+      "type": "text"
+    },
+    "myExperience": {
+      "type": "text"
+    },
+    "yearsOfExperience": {
+      "type": "integer"
+    }
+  }
+}
