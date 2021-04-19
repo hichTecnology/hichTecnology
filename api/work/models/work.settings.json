@@ -37,6 +37,15 @@
       "collection": "category",
       "via": "works",
       "dominant": true
+    },
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
