@@ -14,6 +14,10 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "works": {
+      "via": "linguages",
+      "collection": "work"
     }
   }
 }

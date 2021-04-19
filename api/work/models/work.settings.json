@@ -46,6 +46,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "linguages": {
+      "collection": "linguage",
+      "via": "works",
+      "dominant": true
     }
   }
 }
