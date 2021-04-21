@@ -12,7 +12,8 @@
   "attributes": {
     "myStory": {
       "type": "text"
-    },
+      
+      },
     "myExperience": {
       "type": "text"
     },

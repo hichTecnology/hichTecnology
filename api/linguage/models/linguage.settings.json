@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "linguages",
   "info": {
-    "name": "linguage"
+    "name": "linguage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,8 +17,19 @@
       "unique": true
     },
     "works": {
-      "via": "linguages",
-      "collection": "work"
+      "collection": "work",
+      "via": "linguages"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
